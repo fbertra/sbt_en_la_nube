@@ -55,6 +55,6 @@ object NubeBuild extends Build {
   // proyecto
   lazy val main = Project(
     id = "sbt_nube-main",
-    base = file("main")
+    base = file("sbt_nube-main")
     )    
 }

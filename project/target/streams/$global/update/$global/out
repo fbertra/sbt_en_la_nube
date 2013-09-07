@@ -1251,7 +1251,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1353ms :: artifacts dl 74ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1892ms :: artifacts dl 77ms[0m
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT compile produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT runtime produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT test produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-test.xml[0m
@@ -1264,5 +1264,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT sources produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT docs produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT pom produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1353ms resolve - 74ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1892ms resolve - 77ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
