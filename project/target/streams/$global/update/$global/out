@@ -1,55 +1,49 @@
-[0m[[0minfo[0m] [0mUpdating {file:/D:/home/francois/proyectos/pruebas/ide_en_la_nube/sbt_en_la_nube/project/}default-099cd2...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-099cd2;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/}default-94a807...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-94a807;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving default#default-e6e58b;0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: default#default-e6e58b;0.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	found default#default-e6e58b;0.0 in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.12.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#sbt;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#sbt;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#sbt;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#main;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#main;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#main;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#main;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#main;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#actions;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#actions;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#actions;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#actions;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#actions;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#classpath;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#classpath;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#classpath;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#classpath;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#classpath;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#classpath;0.12.4->org.scala-sbt#launcher-interface;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#launcher-interface;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#launcher-interface;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#launcher-interface;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#launcher-interface;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#launcher-interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
@@ -64,7 +58,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#interface;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#interface;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#interface;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#interface;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#interface;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
@@ -74,13 +68,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#io;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#io;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#io;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#io;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#io;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#io;0.12.4->org.scala-sbt#control;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#control;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#control;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#control;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#control;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#control;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#control;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#control;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#control;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#control;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
@@ -111,13 +105,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#completion;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#completion;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#completion;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#completion;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#completion;0.12.4->org.scala-sbt#collections;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#collections;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#collections;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#collections;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#collections;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#collections;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#collections;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#collections;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#collections;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#collections;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
@@ -142,7 +136,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#api;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#api;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#api;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#api;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#api;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#api;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#api;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
@@ -153,13 +147,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-integration;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-integration;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-integration;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-integration;0.12.4->org.scala-sbt#incremental-compiler;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#incremental-compiler;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#incremental-compiler;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#incremental-compiler;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#incremental-compiler;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#incremental-compiler;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#incremental-compiler;0.12.4->org.scala-sbt#collections;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#incremental-compiler;0.12.4->org.scala-sbt#api;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#incremental-compiler;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
@@ -168,14 +162,14 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#logging;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#logging;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#logging;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#logging;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#logging;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#logging;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#logging;0.12.4->org.scala-sbt#process;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#process;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#process;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#process;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#process;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#process;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#process;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#process;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#process;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#process;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
@@ -194,7 +188,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#compile;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#compile;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#compile;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#compile;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#compile;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compile;0.12.4->org.scala-sbt#launcher-interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compile;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compile;0.12.4->org.scala-sbt#logging;0.12.4 [compile->default(compile)][0m
@@ -209,7 +203,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#persist;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#persist;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#persist;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#persist;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#persist;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#persist;0.12.4->org.scala-sbt#incremental-compiler;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#persist;0.12.4->org.scala-sbt#api;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#persist;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
@@ -231,7 +225,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#classfile;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#classfile;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#classfile;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#classfile;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#classfile;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#classfile;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#classfile;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#classfile;0.12.4->org.scala-sbt#logging;0.12.4 [compile->default(compile)][0m
@@ -248,13 +242,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-ivy-integration;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-ivy-integration;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-ivy-integration;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-ivy-integration;0.12.4->org.scala-sbt#ivy;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#ivy;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#ivy;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#ivy;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#ivy;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#ivy;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#ivy;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#ivy;0.12.4->org.scala-sbt#launcher-interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#ivy;0.12.4->org.scala-sbt#logging;0.12.4 [compile->default(compile)][0m
@@ -323,7 +317,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#run;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#run;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#run;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#run;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#run;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#run;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#run;0.12.4->org.scala-sbt#logging;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#run;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -337,13 +331,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#task-system;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#task-system;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#task-system;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#task-system;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#task-system;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#task-system;0.12.4->org.scala-sbt#tasks;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#tasks;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#tasks;0.12.4 {compile=[default(compile)], test=[test]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#tasks;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#tasks;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#tasks;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#tasks;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#tasks;0.12.4->org.scala-sbt#control;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#tasks;0.12.4->org.scala-sbt#collections;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#tasks;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
@@ -364,13 +358,13 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#tracking;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#tracking;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#tracking;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#tracking;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#tracking;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#tracking;0.12.4->org.scala-sbt#cache;0.12.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#cache;0.12.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#cache;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#cache;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#cache;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#cache;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#cache;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#cache;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#cache;0.12.4->org.scala-sbt#collections;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#cache;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
@@ -391,7 +385,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#testing;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#testing;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#testing;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#testing;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#testing;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#testing;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#testing;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#testing;0.12.4->org.scala-sbt#logging;0.12.4 [compile->default(compile)][0m
@@ -401,7 +395,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-agent;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#test-agent;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#test-agent;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#test-agent;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#test-agent;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#test-agent;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#test-agent;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
@@ -439,7 +433,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#command;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#command;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#command;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#command;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#command;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#command;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#command;0.12.4->org.scala-sbt#io;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#command;0.12.4->org.scala-sbt#launcher-interface;0.12.4 [compile->default(compile)][0m
@@ -459,7 +453,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-interface;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-interface;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#compiler-interface;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#compiler-interface;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
@@ -474,7 +468,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_8_2;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_8_2;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_8_2;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_8_2;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.8.2 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.8.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.9.2 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_8_2;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
@@ -497,7 +491,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_9_3;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_9_3;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_9_3;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.9.2 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
@@ -520,7 +514,7 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_10_1;0.12.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_10_1;0.12.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_10_1;0.12.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_10_1;0.12.4 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#precompiled-2_10_1;0.12.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.1 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.9.2 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_10_1;0.12.4->org.scala-sbt#interface;0.12.4 [compile->default(compile)][0m
@@ -542,19 +536,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -866,25 +859,23 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->default#default-e6e58b;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.4 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-sbt#main;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#main;0.12.4->org.scala-sbt#actions;0.12.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#actions;0.12.4->org.scala-sbt#classpath;0.12.4 [compile->default(compile)][0m
@@ -1196,19 +1187,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.4->org.scala-lang#scala-library;2.9.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-099cd2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-94a807;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-099cd2;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\default\default-099cd2\scala_2.9.2\sbt_0.12\0.1-SNAPSHOT\resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-94a807;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/default/default-94a807/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt;0.12.4!sbt.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#main;0.12.4!main.jar[0m
@@ -1251,18 +1242,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1892ms :: artifacts dl 77ms[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT compile produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT runtime produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT test produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT provided produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT optional produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT compile-internal produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT runtime-internal produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT test-internal produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT plugin produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT sources produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT docs produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#default-099cd2;0.1-SNAPSHOT pom produced in D:\home\francois\proyectos\pruebas\ide_en_la_nube\sbt_en_la_nube\project\target\resolution-cache\reports\default-default-099cd2-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1892ms resolve - 77ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 14400ms :: artifacts dl 512ms[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT compile produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT runtime produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT test produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT provided produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT optional produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT compile-internal produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT runtime-internal produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT test-internal produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT plugin produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT sources produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT docs produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-94a807;0.1-SNAPSHOT pom produced in /var/lib/stickshift/522b69e34382ecb9de000119/app-root/data/606592/project/target/resolution-cache/reports/default-default-94a807-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (14400ms resolve - 512ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

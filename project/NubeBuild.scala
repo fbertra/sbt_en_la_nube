@@ -50,11 +50,16 @@ object NubeBuild extends Build {
   lazy val all = Project (
     id = "all",
     base = file (".")
-  ) aggregate (main)
+  ) aggregate (main, api)
   
   // proyecto
   lazy val main = Project(
     id = "sbt_nube-main",
     base = file("sbt_nube-main")
+    ).dependsOn (api)    
+    
+  lazy val api = Project(
+    id = "sbt_nube-api",
+    base = file("sbt_nube-api")
     )    
 }
