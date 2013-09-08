@@ -11,18 +11,23 @@ Switch on Terminal WIndows
 - download sbt
  
   $ cd
+  
   $ wget http://repo.scala-sbt.org/scalasbt/sbt-native-packages/org/scala-sbt/sbt//0.12.4/sbt.tgz  
- $ tar xvf sbt.tgz
+ 
+  $ tar xvf sbt.tgz
 
 - create directories for SBT boot and ivy
 
-  $ mkdir sbt/boot 
+  $ mkdir sbt/boot
+  
   $ mkdir ivy
 
 - create a shell named "sbt" in $HOME/bin with the content:
 
   $ cd $HOME/bin
+  
   $ vi sbt
+  
   $ # note: vi working in the browser...surprising
   
 - insert this content 

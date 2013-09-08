@@ -1,10 +1,15 @@
 sbt_en_la_nube
 ==============
 
-Para probar IDE basados en la nube como Cloud9: https://c9.io/
+"SBT in the cloud"
 
-Steps to install sbt on cloud9 (pasos para instalar SBT)
-========================================================
+Toy project to test Cloud based IDE like Cloud9 https://c9.io/ and Codeenvy https://codenvy.com/
+
+The original idea was to use SBT, but Codeenvy supports maven only.
+ 
+
+Steps to install SBT on cloud9
+==============================
 
 Switch on Terminal WIndows
 
