@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cl.codelco_dand.planificacion_colaborativa</groupId>
+    <artifactId>dand_planif_colab_padre</artifactId>
+    <packaging>pom</packaging>
+    <name>dand_planif_colab_padre</name>
+    <version>2.2</version>
+    <inceptionYear>2010</inceptionYear>
+
+    <properties>
+        <!--
+        <scala.version>2.7.7</scala.version>
+
+        <liftweb.version>2.0</liftweb.version>
+        -->
+
+        <scala.version>2.8.0</scala.version>
+        <cio-version>4.1</cio-version>
+
+        <liftweb.version>2.1</liftweb.version>
+
+    </properties>
+  
+    <modules>
+        <module>../dand_planif_colab_web</module>
+        <module>../dand_planif_colab_jpa</module>
+        <module>../dand_planif_colab_esb</module>
+        <module>../dand_planif_colab_excel</module>
+    </modules>
+</project>

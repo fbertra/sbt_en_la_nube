@@ -1,0 +1,203 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>dand_planif_colab_padre</artifactId>
+        <groupId>cl.codelco_dand.planificacion_colaborativa</groupId>
+        <version>2.2</version>
+        <relativePath>../dand_planif_colab_padre/pom.xml</relativePath>
+    </parent>
+    
+    
+    <artifactId>dand_planif_colab_jpa</artifactId>
+    <packaging>jar</packaging>
+    <name>dand_planif_colab_jpa</name>
+    <inceptionYear>2010</inceptionYear>
+    
+    <repositories>
+        <repository>
+            <id>scala-tools.org</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>scala-tools.org</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    
+  <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+
+        <!--
+        <dependency>
+            <groupId>net.liftweb</groupId>
+            <artifactId>lift-util_2.8.0</artifactId>
+            <version>${liftweb.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.liftweb</groupId>
+            <artifactId>lift-webkit_2.8.0</artifactId>
+            <version>${liftweb.version}</version>
+        </dependency>
+        -->
+        
+    <!-- ScalaJPA 
+        <dependency>
+            <groupId>org.scala-tools</groupId>
+            <artifactId>scalajpa</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    -->
+        <dependency>
+            <groupId>org.scala-libs</groupId>
+            <artifactId>scalajpa_2.8.0</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+    <!-- copiado desde scalajpa -->
+
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>geronimo-spec</groupId>
+            <artifactId>geronimo-spec-jta</artifactId>
+            <version>1.0-M1</version>
+        </dependency>
+
+    <!-- hibernate (impl JPA) -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.4.0.GA</version>
+        </dependency>
+
+        <!-- 
+             test
+         -->
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.5.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.5.5</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!--
+        <dependency>
+            <groupId>ojdbc</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>14</version>
+            <scope>test</scope>
+        </dependency>
+        -->
+
+        <dependency>
+            <groupId>ojdbc</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>11</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- derby -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.2.2.0</version>
+            <scope>test</scope>
+        </dependency>
+
+  </dependencies>
+  
+    <build>
+        <sourceDirectory>src/main/scala</sourceDirectory>
+        <testSourceDirectory>src/test/scala</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <scalaVersion>${scala.version}</scalaVersion>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <configuration>
+                    <contextPath>/planificacion_colaborativa</contextPath>
+                    <scanIntervalSeconds>5</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>net.sf.alchim</groupId>
+                <artifactId>yuicompressor-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compress</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <nosuffix>true</nosuffix>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-eclipse-plugin</artifactId>
+                <configuration>
+                    <downloadSources>true</downloadSources>
+                    <excludes>
+                        <exclude>org.scala-lang:scala-library</exclude>
+                    </excludes>
+                    <classpathContainers>
+                        <classpathContainer>ch.epfl.lamp.sdt.launching.SCALA_CONTAINER</classpathContainer>
+                    </classpathContainers>
+                    <projectnatures>
+                        <java.lang.String>ch.epfl.lamp.sdt.core.scalanature</java.lang.String>
+                        <java.lang.String>org.eclipse.jdt.core.javanature</java.lang.String>
+                    </projectnatures>
+                    <buildcommands>
+                        <java.lang.String>ch.epfl.lamp.sdt.core.scalabuilder</java.lang.String>
+                    </buildcommands>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+  
+</project>
